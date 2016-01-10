@@ -3,12 +3,13 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/sourcegraph/webloop"
 	"log"
 	"net/http"
 	"os"
 	"strings"
 	"time"
+
+	"github.com/elvuel/webloop"
 )
 
 var bind = flag.String("http", ":13000", "HTTP bind address")

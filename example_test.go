@@ -5,8 +5,8 @@ import (
 	"os"
 	"runtime"
 
+	"github.com/elvuel/webloop"
 	"github.com/gotk3/gotk3/gtk"
-	"github.com/sourcegraph/webloop"
 )
 
 func Example() {

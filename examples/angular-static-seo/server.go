@@ -3,11 +3,12 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/sourcegraph/webloop"
 	"log"
 	"net/http"
 	"os"
 	"time"
+
+	"github.com/elvuel/webloop"
 )
 
 var appBind = flag.String("app-http", ":9090", "HTTP bind address for AngularJS app")
